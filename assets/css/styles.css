@@ -315,7 +315,7 @@ header {
 }
 
 header #navbar .logo {
-    max-width: 200px
+    max-width: 250px
 }
 
 #hero {
@@ -536,7 +536,7 @@ footer ul.social li a:hover {
 }
 
 footer .logo {
-    max-width: 200px;
+    max-width: 250px;
     margin-bottom: .75rem
 }
 
