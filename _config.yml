@@ -19,23 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 title: S-Ential Technologies
-email: your-email@example.com
+email: sales@s-entialtechnologies.com
 description: >- # this means to ignore newlines until "baseurl:"
-  We help awesome businesses streamline business operations and accounts, cut costs by 
-  automating routine tasks, improve the efficiency of staff, communicate more 
-  effectively with customers, suppliers, or partners, develop custom software 
-  solutions tailored to specific business needs, design and implement responsive 
-  websites and web applications, optimize digital marketing strategies for 
-  increased online visibility and customer engagement, provide comprehensive IT 
-  consulting services for infrastructure setup, security enhancement, and 
-  technology integration, offer training programs and workshops to empower 
-  employees with the latest digital tools and techniques, conduct thorough 
-  market research and analysis to identify growth opportunities and target 
-  audiences, and deliver ongoing technical support and maintenance to ensure 
-  smooth operations and continuous improvement.
+  S-Ential Technologies empowers SMEs in East Africa with smart digital solutions—web design, SEO, custom software, email systems, and marketing—to drive growth, efficiency, and security.
   
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.s-entialtechnologies.com" 
 twitter_username: jekyllrb
 github_username:  jekyll
 discus_identifier: admin11
