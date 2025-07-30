@@ -76,8 +76,8 @@ No matter your sector, we help you stand out online and connect with the right a
 
 Whether you're launching online or aiming to improve your visibility, **S‑Ential Technologies is your trusted digital growth partner in Kenya**.
 
-[Book a Free Marketing Consultation](#)  
-[Get in Touch](#) — Let’s take your brand to the next level.
+
+[Get in Touch](/contact/) — Let’s take your brand to the next level.
 
 **S‑Ential Technologies — Digital Marketing for Kenyan SMEs. Affordable. Reliable. Effective.**
 
