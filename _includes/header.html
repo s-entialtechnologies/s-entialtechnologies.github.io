@@ -34,6 +34,68 @@ header {
   z-index: 1000;
 }
 
+
+/* ==== Print Button Styling (Screen Only) ==== */
+.print-btn {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 20px 0;
+}
+.print-btn:hover {
+  background-color: #0056b3;
+}
+
+/* ==== Print Styles ==== */
+@media print {
+
+  /* Hide headers, footers, nav, and non-print items */
+  header, footer, nav, .no-print, .print-btn {
+    display: none !important;
+  }
+
+  /* Remove all spacing at the top */
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: white !important;
+    color: black !important;
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  /* Set page margins */
+  @page {
+    margin: 1in;
+  }
+
+  /* Ensure content section prints full width */
+  .untree_co-section, .container, .article {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: none !important;
+  }
+
+  /* Optional: Remove extra spacing from first child (usually h1) */
+  .article > *:first-child {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  /* Show link URLs */
+  a::after {
+    content: " (" attr(href) ")";
+    font-size: 0.9em;
+    color: #555;
+  }
+}
+
+
 </style>
 
 
@@ -138,7 +200,7 @@ header {
 
     <p id="typing-effect">We help awesome businesses <span id="changing-text"></span><span id="cursor"></span></p>
 
-    <a href="/contact" class="btn btn-secondary"><i class="fa-solid fa-play"></i> &nbsp;Request Demo</a>
+    <a href="/blog/grow-your-kenyan-sme-with-digital-marketing" class="btn btn-secondary"><i class="fa-solid fa-play"></i> &nbsp;View Our Digital Marketing Proposal</a>
    </div>
 
    <div class="col-sm-6">
@@ -174,7 +236,7 @@ header {
  <div class="container" style="padding-top: 250px;">
   <div class="row">
    <div class="col-sm-12">
-    <p class="kicker"><a href="/" style="text-decoration: none !important; color: inherit;">home</a>/{{page.bread_crumb}}</p>
+    <p class="kicker no-print"><a href="/" style="text-decoration: none !important; color: inherit;">home</a>/{{page.bread_crumb}}</p>
     <h1 class="jumbo">{{page.title}}</h1>
    </div>
   </div>

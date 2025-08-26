@@ -2,31 +2,31 @@
 layout: category
 ---
 
-
 <div class="untree_co-section">
- <div class="container">
-  <div class="article" data-aos="fade-up" data-aos-delay="400">
-  <!--
-   <h1 style="font-weight: 1000">{{page.title}}</h1><br>
-   
-   <div class="row align-items-center">
-    <img srcset="{{page.img}}" alt="IMG" style="border-radius: 5px">
-   </div> -->
-   <!-- Page content object inserted below -->
-   {{page.content | markdownify}}
+  <div class="container">
+    <div class="article" data-aos="fade-up" data-aos-delay="400">
+      
+      <!-- Print to PDF Button -->
+      <button onclick="window.print()" class="print-btn no-print">
+        📄 Download as PDF
+      </button>
+      
+      <!-- Page content -->
+      {{page.content | markdownify}}
+      
+    </div>
   </div>
- </div>
 </div>
 
-
 <br>
-<section>
-        {% include newsletter.html %}
+
+<section class="no-print">
+  {% include newsletter.html %}
 </section>
 
-
-<section class="reduce-size bg-light">
-        {% include disqus.html %}
+<section class="reduce-size bg-light no-print">
+  {% include disqus.html %}
 </section>
+
 <br>
 
