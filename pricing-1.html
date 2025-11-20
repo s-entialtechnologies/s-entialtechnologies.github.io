@@ -2,7 +2,7 @@
 layout: default
 bread_crumb: Pricing
 title: Garage Storytelling Pricing
-permalink: "pricing/"
+permalink: "pricing/smm/autoservice"
 ---
 
 <!DOCTYPE html>
@@ -77,6 +77,14 @@ permalink: "pricing/"
     margin-bottom: 15px;
     color: #1B2A49;
   }
+  .highlight-box {
+    background: #fff;
+    padding: 20px;
+    margin-top: 10px;
+    border-left: 4px solid #2EC4B6;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
   p, li {
     margin-bottom: 10px;
   }
@@ -87,6 +95,11 @@ permalink: "pricing/"
     .card {
       margin-right: 0;
     }
+  }
+  .info-icon {
+    cursor: pointer;
+    color: #2EC4B6;
+    margin-left: 5px;
   }
 </style>
 </head>
@@ -116,26 +129,34 @@ permalink: "pricing/"
       <h2 class="subsection-title">2. Objectives</h2>
       <ul>
         <li><strong>Increase customer trust:</strong> Through real case stories, transparent repairs, technician introductions, and educational breakdowns.</li>
-        <li><strong>Bring in more high-value jobs:</strong> Focus on services like diagnostics, suspension, engine work, brakes, and major repairs.</li>
-        <li><strong>Keep your online presence active:</strong> Consistent storytelling content across social media platforms.</li>
-        <li><strong>Improve Google visibility:</strong> More photos, reviews, posts, and accurate business information.</li>
-        <li><strong>Generate more bookings:</strong> Use strong story-based call-to-actions to encourage check-ups, inspections, and service appointments.</li>
+        <li><strong>Bring in more high-value jobs:</strong> Focus on diagnostics, suspension, engine work, brakes, and major repairs.</li>
+        <li><strong>Keep your online presence active:</strong> Consistent storytelling content across social media.</li>
+        <li><strong>Improve Google visibility:</strong> More photos, reviews, posts, and accurate information.</li>
+        <li><strong>Generate more bookings:</strong> Story-based call-to-actions encouraging inspections and appointments.</li>
       </ul>
 
       <!-- SYSTEM -->
       <h2 class="subsection-title">3. Our System: How It Works</h2>
 
-      <h3>PART 1 - STORY DISCOVERY</h3>
+      <h6>PART 1 - STORY DISCOVERY</h6>
       <p>We uncover your most powerful shop stories:</p>
       <ul>
         <li>Why you started</li>
         <li>Customer transformation stories</li>
         <li>Technician experience</li>
-        <li>Your philosophy on honesty & transparency</li>
+        <li>Your philosophy on honesty and transparency</li>
         <li>Community involvement</li>
       </ul>
 
-      <h3>PART 2 - STORY CAPTURE</h3>
+      <!-- EXPLANATION BLOCK -->
+      <div class="highlight-box">
+        <h4>What Story Discovery Really Means</h4>
+        <p>Most garages already have amazing stories happening every day, but they never get shared. Story Discovery helps us pull those stories out by interviewing you, learning how the garage started, understanding your values, and identifying the types of repair cases that build trust with customers.</p>
+        <p>We use these insights to create a unique content voice for your garage so your social media doesn’t look generic or templated. This becomes your long-term storytelling foundation across all platforms.</p>
+      </div>
+
+      <br>
+      <h6>PART 2 - STORY CAPTURE</h6>
       <p>We give you a simple way to send us:</p>
       <ul>
         <li>Short clips</li>
@@ -144,17 +165,19 @@ permalink: "pricing/"
       </ul>
       <p>We handle all editing and copywriting.</p>
 
-      <h3>PART 3 - STORY CREATION</h3>
+      <br>
+      <h6>PART 3 - STORY CREATION</h6>
       <p>We create professional, trust-building content:</p>
       <ul>
         <li>Repair case stories</li>
         <li>Educational breakdowns</li>
         <li>Technician features</li>
         <li>Behind-the-scenes reels</li>
-        <li>Carousels & photos</li>
+        <li>Carousels and photos</li>
       </ul>
 
-      <h3>PART 4 - STORY AMPLIFIER</h3>
+      <br>
+      <h6>PART 4 - STORY AMPLIFIER</h6>
       <p>We turn your stories into actual business:</p>
       <ul>
         <li>Consistent posting</li>
@@ -164,19 +187,19 @@ permalink: "pricing/"
       </ul>
 
       <!-- PACKAGE OPTIONS / PRICING -->
-      <h2 class="subsection-title">4. Package Options (Nairobi Pricing)</h2>
+      <h2 class="subsection-title">4. Package Options</h2>
 
       <div class="cards-row">
         <!-- Tier 1 -->
         <div class="card">
-          <h2>Tier 1: Story Essentials</h2>
-          <h3 class="price">KES 35,000 / month</h3>
+          <h3>Tier 1: Story Essentials</h3>
+          <h6 class="price">KES 35,000 / month</h6>
           <ul>
             <li>8 posts</li>
             <li>3 reels</li>
             <li>2 Social Media Platforms</li>
-            <li>Basic Story Discovery</li>
-            <li>Story-based captions</li>
+            <li>Basic Story Discovery <span class="info-icon" onclick="openModal('basicStory')">ⓘ</span></li>
+            <li>Story-based captions <span class="info-icon" onclick="openModal('storyCaptions')">ⓘ</span></li>
             <li>Branded templates</li>
             <li>Monthly performance summary</li>
           </ul>
@@ -184,16 +207,16 @@ permalink: "pricing/"
 
         <!-- Tier 2 -->
         <div class="card">
-          <h2>Tier 2: Story Engine (Most Popular)</h2>
-          <h3 class="price">KES 65,000 / month</h3>
+          <h3>Tier 2: Story Engine</h3>
+          <h6 class="price">KES 65,000 / month</h6>
           <ul>
             <li>16 posts</li>
             <li>6 reels (full edits)</li>
-            <li>3 Social Media Platforms</li>
-            <li>Full Story Discovery</li>
-            <li>Custom Story Library</li>
-            <li>Monthly content calendar</li>
-            <li>Branded templates & graphics</li>
+            <li>2 Social Media Platforms</li>
+            <li>Full Story Discovery <span class="info-icon" onclick="openModal('fullStory')">ⓘ</span></li>
+            <li>Custom Story Library <span class="info-icon" onclick="openModal('customLibrary')">ⓘ</span></li>
+            <li>Monthly content calendar <span class="info-icon" onclick="openModal('contentCalendar')">ⓘ</span></li>
+            <li>Branded templates and graphics</li>
             <li>Monthly strategy call</li>
             <li>Light comment/DM support</li>
           </ul>
@@ -201,37 +224,113 @@ permalink: "pricing/"
 
         <!-- Tier 3 -->
         <div class="card">
-          <h2>Tier 3: Story Domination (Premium)</h2>
-          <h3 class="price">KES 120,000 / month</h3>
+          <h3>Tier 3: Story Domination (Premium)</h3>
+          <h6 class="price">KES 120,000 / month</h6>
           <ul>
             <li>30 posts</li>
             <li>10 premium reels</li>
             <li>3 Social Media Platforms</li>
-            <li>Complete Story Library</li>
-            <li>Lead/booking funnel setup</li>
-            <li>Review-request scripts</li>
-            <li>Analytics dashboard</li>
+            <li>Complete Story Library <span class="info-icon" onclick="openModal('completeLibrary')">ⓘ</span></li>
+            <li>Lead and booking funnel setup <span class="info-icon" onclick="openModal('funnelSetup')">ⓘ</span></li>
+            <li>Review-request scripts <span class="info-icon" onclick="openModal('reviewScripts')">ⓘ</span></li>
+            <li>Analytics dashboard <span class="info-icon" onclick="openModal('analytics')">ⓘ</span></li>
             <li>Priority delivery</li>
-            <li>Quarterly content shoot included</li>
+            <li>Quarterly content shoot included <span class="info-icon" onclick="openModal('quarterlyShoot')">ⓘ</span></li>
           </ul>
         </div>
       </div>
 
       <!-- Add-ons -->
       <div class="addons">
-        <h2>Add-ons</h2>
+        <h3>Add-ons</h3>
         <ul>
           <li>On-site content shoot - <strong>KES 25,000</strong></li>
           <li>WhatsApp booking automation - <strong>KES 18,000</strong></li>
-          <li>Paid ads management - <strong>KES 15,000</strong></li>
+          <li>Paid ads management per month (excluding ad spend) - <strong>KES 15,000</strong></li>
           <li>Customer review system - <strong>KES 10,000</strong></li>
           <li>Website / landing page - <strong>KES 25,000</strong></li>
         </ul>
+
+        <!-- CUSTOMER REVIEW SYSTEM EXPLANATION -->
+        <div class="highlight-box">
+          <h4>What the Customer Review System Does</h4>
+          <p>The Customer Review System helps your garage get more positive reviews on Google and Facebook by making it easy for customers to leave feedback after their service.</p>
+          <ul>
+            <li>Smart link that opens directly to Google Reviews</li>
+            <li>Optional happy/unhappy filter to protect against bad reviews</li>
+          </ul>
+          <p>This system helps your garage rank higher on Google, build trust, and attract more first-time customers.</p>
+        </div>
+
       </div>
 
     </div>
   </section>
 </main>
+
+<!-- Reusable Modal -->
+<div id="modalOverlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); justify-content:center; align-items:center; z-index:1000;">
+  <div style="background:#fff; padding:20px; max-width:500px; width:90%; border-radius:10px; position:relative;">
+    <span onclick="closeModal()" style="position:absolute; top:10px; right:15px; cursor:pointer; font-size:20px;">×</span>
+    <h3 id="modalTitle" style="margin-bottom:10px;"></h3>
+    <p id="modalContent"></p>
+  </div>
+</div>
+
+<script>
+  const explanations = {
+    basicStory: {
+      title: "Basic Story Discovery",
+      text: "A short session to understand your garage’s background, key services, and unique selling points. Enough to start creating trustworthy stories."
+    },
+    fullStory: {
+      title: "Full Story Discovery",
+      text: "A detailed deep-dive into your garage’s history, customer stories, technicians, values, and focus areas. Forms your long-term storytelling framework."
+    },
+    storyCaptions: {
+      title: "Story-Based Captions",
+      text: "Captions written in a storytelling format: Problem → Diagnosis → Repair → Outcome. Builds trust with your audience."
+    },
+    customLibrary: {
+      title: "Custom Story Library",
+      text: "A collection of ready-made stories based on real repair jobs for consistent storytelling on all platforms."
+    },
+    contentCalendar: {
+      title: "Monthly Content Calendar",
+      text: "A detailed plan showing posting dates, formats, and story themes for predictable content rollout."
+    },
+    completeLibrary: {
+      title: "Complete Story Library",
+      text: "A full library of reusable stories from customer cases, technician narratives, and behind-the-scenes clips."
+    },
+    funnelSetup: {
+      title: "Lead & Booking Funnel Setup",
+      text: "Landing page, WhatsApp booking flow, CTA scripts, and tracking to convert story readers into paying customers."
+    },
+    reviewScripts: {
+      title: "Review Request Scripts",
+      text: "Scripts used to get more Google and Facebook reviews, boosting your reputation and trust."
+    },
+    analytics: {
+      title: "Analytics Dashboard",
+      text: "Shows performance: reach, engagement, leads, and story impact."
+    },
+    quarterlyShoot: {
+      title: "Quarterly Content Shoot",
+      text: "Professional photography/filming every 3 months to refresh content with real garage footage."
+    }
+  };
+
+  function openModal(key) {
+    document.getElementById("modalTitle").innerText = explanations[key].title;
+    document.getElementById("modalContent").innerText = explanations[key].text;
+    document.getElementById("modalOverlay").style.display = "flex";
+  }
+
+  function closeModal() {
+    document.getElementById("modalOverlay").style.display = "none";
+  }
+</script>
 
 </body>
 </html>
