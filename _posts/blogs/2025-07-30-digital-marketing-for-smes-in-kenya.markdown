@@ -6,7 +6,7 @@ author: S-Ential Team
 avatar: /assets/img/blog/authors/s-ential.jpg
 duration: 3
 date: 2025-07-30 12:00:00 +0300
-img: /assets/img/blog/professional_email.jpg 1x, /assets/img/blog/professional_email.jpg 2x
+img: /assets/img/blog/default-thumb.jpg 1x, /assets/img/blog/default-thumb.jpg 2x
 categories: blog
 sub_category: digital
 type: insights
