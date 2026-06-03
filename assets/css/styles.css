@@ -315,7 +315,8 @@ header {
 }
 
 header #navbar .logo {
-    max-width: 250px
+    xmax-width: 250px;
+    max-height: 60px
 }
 
 #hero {
